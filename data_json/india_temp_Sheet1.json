@@ -1,0 +1,499 @@
+[
+  {
+    "Year": 1950,
+    "Annual Average Mean Surface Air Temperature": 22.8,
+    "Trend 1951-2020": null,
+    "Trend 1971-2020": null,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1951,
+    "Annual Average Mean Surface Air Temperature": 22.92,
+    "Trend 1951-2020": 23.457995975855145,
+    "Trend 1971-2020": null,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1952,
+    "Annual Average Mean Surface Air Temperature": 22.95,
+    "Trend 1951-2020": 23.472302510716485,
+    "Trend 1971-2020": null,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1953,
+    "Annual Average Mean Surface Air Temperature": 22.63,
+    "Trend 1951-2020": 23.48660904557783,
+    "Trend 1971-2020": null,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1954,
+    "Annual Average Mean Surface Air Temperature": 23.74,
+    "Trend 1951-2020": 23.50091558043917,
+    "Trend 1971-2020": null,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1955,
+    "Annual Average Mean Surface Air Temperature": 23.58,
+    "Trend 1951-2020": 23.51522211530051,
+    "Trend 1971-2020": null,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1956,
+    "Annual Average Mean Surface Air Temperature": 23.48,
+    "Trend 1951-2020": 23.529528650161854,
+    "Trend 1971-2020": null,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1957,
+    "Annual Average Mean Surface Air Temperature": 23.84,
+    "Trend 1951-2020": 23.543835185023195,
+    "Trend 1971-2020": null,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1958,
+    "Annual Average Mean Surface Air Temperature": 24.17,
+    "Trend 1951-2020": 23.558141719884535,
+    "Trend 1971-2020": null,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1959,
+    "Annual Average Mean Surface Air Temperature": 23.87,
+    "Trend 1951-2020": 23.57244825474588,
+    "Trend 1971-2020": null,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1960,
+    "Annual Average Mean Surface Air Temperature": 23.95,
+    "Trend 1951-2020": 23.58675478960722,
+    "Trend 1971-2020": null,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1961,
+    "Annual Average Mean Surface Air Temperature": 23.31,
+    "Trend 1951-2020": 23.60106132446856,
+    "Trend 1971-2020": null,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1962,
+    "Annual Average Mean Surface Air Temperature": 23.39,
+    "Trend 1951-2020": 23.615367859329904,
+    "Trend 1971-2020": null,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1963,
+    "Annual Average Mean Surface Air Temperature": 23.84,
+    "Trend 1951-2020": 23.629674394191245,
+    "Trend 1971-2020": null,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1964,
+    "Annual Average Mean Surface Air Temperature": 23.81,
+    "Trend 1951-2020": 23.643980929052585,
+    "Trend 1971-2020": null,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1965,
+    "Annual Average Mean Surface Air Temperature": 23.81,
+    "Trend 1951-2020": 23.65828746391393,
+    "Trend 1971-2020": null,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1966,
+    "Annual Average Mean Surface Air Temperature": 23.84,
+    "Trend 1951-2020": 23.67259399877527,
+    "Trend 1971-2020": null,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1967,
+    "Annual Average Mean Surface Air Temperature": 23.79,
+    "Trend 1951-2020": 23.68690053363661,
+    "Trend 1971-2020": null,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1968,
+    "Annual Average Mean Surface Air Temperature": 23.61,
+    "Trend 1951-2020": 23.701207068497954,
+    "Trend 1971-2020": null,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1969,
+    "Annual Average Mean Surface Air Temperature": 24.28,
+    "Trend 1951-2020": 23.715513603359295,
+    "Trend 1971-2020": null,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1970,
+    "Annual Average Mean Surface Air Temperature": 23.76,
+    "Trend 1951-2020": 23.729820138220635,
+    "Trend 1971-2020": null,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1971,
+    "Annual Average Mean Surface Air Temperature": 23.36,
+    "Trend 1951-2020": 23.74412667308198,
+    "Trend 1971-2020": 23.716588235294108,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1972,
+    "Annual Average Mean Surface Air Temperature": 24.06,
+    "Trend 1951-2020": 23.75843320794332,
+    "Trend 1971-2020": 23.731454021608634,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1973,
+    "Annual Average Mean Surface Air Temperature": 24.09,
+    "Trend 1951-2020": 23.77273974280466,
+    "Trend 1971-2020": 23.74631980792316,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1974,
+    "Annual Average Mean Surface Air Temperature": 23.87,
+    "Trend 1951-2020": 23.787046277666004,
+    "Trend 1971-2020": 23.761185594237688,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1975,
+    "Annual Average Mean Surface Air Temperature": 23.5,
+    "Trend 1951-2020": 23.801352812527345,
+    "Trend 1971-2020": 23.77605138055221,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1976,
+    "Annual Average Mean Surface Air Temperature": 23.86,
+    "Trend 1951-2020": 23.815659347388685,
+    "Trend 1971-2020": 23.790917166866738,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1977,
+    "Annual Average Mean Surface Air Temperature": 23.94,
+    "Trend 1951-2020": 23.82996588225003,
+    "Trend 1971-2020": 23.805782953181264,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1978,
+    "Annual Average Mean Surface Air Temperature": 23.65,
+    "Trend 1951-2020": 23.84427241711137,
+    "Trend 1971-2020": 23.82064873949579,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1979,
+    "Annual Average Mean Surface Air Temperature": 24.3,
+    "Trend 1951-2020": 23.85857895197271,
+    "Trend 1971-2020": 23.835514525810318,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1980,
+    "Annual Average Mean Surface Air Temperature": 24.24,
+    "Trend 1951-2020": 23.872885486834054,
+    "Trend 1971-2020": 23.850380312124845,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1981,
+    "Annual Average Mean Surface Air Temperature": 23.77,
+    "Trend 1951-2020": 23.887192021695395,
+    "Trend 1971-2020": 23.86524609843937,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1982,
+    "Annual Average Mean Surface Air Temperature": 23.79,
+    "Trend 1951-2020": 23.90149855655674,
+    "Trend 1971-2020": 23.880111884753898,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1983,
+    "Annual Average Mean Surface Air Temperature": 23.57,
+    "Trend 1951-2020": 23.91580509141808,
+    "Trend 1971-2020": 23.89497767106842,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1984,
+    "Annual Average Mean Surface Air Temperature": 23.77,
+    "Trend 1951-2020": 23.93011162627942,
+    "Trend 1971-2020": 23.909843457382948,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1985,
+    "Annual Average Mean Surface Air Temperature": 24.07,
+    "Trend 1951-2020": 23.944418161140764,
+    "Trend 1971-2020": 23.924709243697475,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1986,
+    "Annual Average Mean Surface Air Temperature": 23.9,
+    "Trend 1951-2020": 23.958724696002104,
+    "Trend 1971-2020": 23.939575030012,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1987,
+    "Annual Average Mean Surface Air Temperature": 24.34,
+    "Trend 1951-2020": 23.973031230863445,
+    "Trend 1971-2020": 23.954440816326528,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1988,
+    "Annual Average Mean Surface Air Temperature": 24.24,
+    "Trend 1951-2020": 23.98733776572479,
+    "Trend 1971-2020": 23.969306602641055,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1989,
+    "Annual Average Mean Surface Air Temperature": 23.71,
+    "Trend 1951-2020": 24.00164430058613,
+    "Trend 1971-2020": 23.98417238895558,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1990,
+    "Annual Average Mean Surface Air Temperature": 23.69,
+    "Trend 1951-2020": 24.01595083544747,
+    "Trend 1971-2020": 23.999038175270105,
+    "Trend 1991-2020": null
+  },
+  {
+    "Year": 1991,
+    "Annual Average Mean Surface Air Temperature": 23.93,
+    "Trend 1951-2020": 24.030257370308814,
+    "Trend 1971-2020": 24.01390396158463,
+    "Trend 1991-2020": 23.877118279569906
+  },
+  {
+    "Year": 1992,
+    "Annual Average Mean Surface Air Temperature": 23.83,
+    "Trend 1951-2020": 24.044563905170154,
+    "Trend 1971-2020": 24.028769747899158,
+    "Trend 1991-2020": 23.900121616611063
+  },
+  {
+    "Year": 1993,
+    "Annual Average Mean Surface Air Temperature": 23.97,
+    "Trend 1951-2020": 24.058870440031495,
+    "Trend 1971-2020": 24.043635534213685,
+    "Trend 1991-2020": 23.923124953652216
+  },
+  {
+    "Year": 1994,
+    "Annual Average Mean Surface Air Temperature": 23.87,
+    "Trend 1951-2020": 24.07317697489284,
+    "Trend 1971-2020": 24.05850132052821,
+    "Trend 1991-2020": 23.946128290693373
+  },
+  {
+    "Year": 1995,
+    "Annual Average Mean Surface Air Temperature": 24.07,
+    "Trend 1951-2020": 24.08748350975418,
+    "Trend 1971-2020": 24.07336710684274,
+    "Trend 1991-2020": 23.96913162773453
+  },
+  {
+    "Year": 1996,
+    "Annual Average Mean Surface Air Temperature": 23.96,
+    "Trend 1951-2020": 24.10179004461552,
+    "Trend 1971-2020": 24.088232893157265,
+    "Trend 1991-2020": 23.992134964775687
+  },
+  {
+    "Year": 1997,
+    "Annual Average Mean Surface Air Temperature": 23.55,
+    "Trend 1951-2020": 24.116096579476864,
+    "Trend 1971-2020": 24.103098679471792,
+    "Trend 1991-2020": 24.01513830181684
+  },
+  {
+    "Year": 1998,
+    "Annual Average Mean Surface Air Temperature": 24.22,
+    "Trend 1951-2020": 24.130403114338204,
+    "Trend 1971-2020": 24.117964465786315,
+    "Trend 1991-2020": 24.038141638857997
+  },
+  {
+    "Year": 1999,
+    "Annual Average Mean Surface Air Temperature": 24.1,
+    "Trend 1951-2020": 24.144709649199545,
+    "Trend 1971-2020": 24.13283025210084,
+    "Trend 1991-2020": 24.061144975899154
+  },
+  {
+    "Year": 2000,
+    "Annual Average Mean Surface Air Temperature": 23.98,
+    "Trend 1951-2020": 24.15901618406089,
+    "Trend 1971-2020": 24.14769603841537,
+    "Trend 1991-2020": 24.08414831294031
+  },
+  {
+    "Year": 2001,
+    "Annual Average Mean Surface Air Temperature": 24.06,
+    "Trend 1951-2020": 24.17332271892223,
+    "Trend 1971-2020": 24.162561824729895,
+    "Trend 1991-2020": 24.107151649981464
+  },
+  {
+    "Year": 2002,
+    "Annual Average Mean Surface Air Temperature": 24.43,
+    "Trend 1951-2020": 24.18762925378357,
+    "Trend 1971-2020": 24.177427611044422,
+    "Trend 1991-2020": 24.13015498702262
+  },
+  {
+    "Year": 2003,
+    "Annual Average Mean Surface Air Temperature": 24.17,
+    "Trend 1951-2020": 24.201935788644914,
+    "Trend 1971-2020": 24.19229339735895,
+    "Trend 1991-2020": 24.153158324063778
+  },
+  {
+    "Year": 2004,
+    "Annual Average Mean Surface Air Temperature": 24.2,
+    "Trend 1951-2020": 24.216242323506254,
+    "Trend 1971-2020": 24.207159183673475,
+    "Trend 1991-2020": 24.176161661104935
+  },
+  {
+    "Year": 2005,
+    "Annual Average Mean Surface Air Temperature": 24.14,
+    "Trend 1951-2020": 24.230548858367595,
+    "Trend 1971-2020": 24.222024969988,
+    "Trend 1991-2020": 24.199164998146088
+  },
+  {
+    "Year": 2006,
+    "Annual Average Mean Surface Air Temperature": 24.37,
+    "Trend 1951-2020": 24.24485539322894,
+    "Trend 1971-2020": 24.236890756302525,
+    "Trend 1991-2020": 24.222168335187245
+  },
+  {
+    "Year": 2007,
+    "Annual Average Mean Surface Air Temperature": 24.26,
+    "Trend 1951-2020": 24.25916192809028,
+    "Trend 1971-2020": 24.251756542617052,
+    "Trend 1991-2020": 24.245171672228402
+  },
+  {
+    "Year": 2008,
+    "Annual Average Mean Surface Air Temperature": 24.03,
+    "Trend 1951-2020": 24.27346846295162,
+    "Trend 1971-2020": 24.26662232893158,
+    "Trend 1991-2020": 24.26817500926956
+  },
+  {
+    "Year": 2009,
+    "Annual Average Mean Surface Air Temperature": 24.75,
+    "Trend 1951-2020": 24.287774997812964,
+    "Trend 1971-2020": 24.281488115246106,
+    "Trend 1991-2020": 24.291178346310712
+  },
+  {
+    "Year": 2010,
+    "Annual Average Mean Surface Air Temperature": 24.71,
+    "Trend 1951-2020": 24.302081532674304,
+    "Trend 1971-2020": 24.296353901560632,
+    "Trend 1991-2020": 24.31418168335187
+  },
+  {
+    "Year": 2011,
+    "Annual Average Mean Surface Air Temperature": 24.06,
+    "Trend 1951-2020": 24.316388067535645,
+    "Trend 1971-2020": 24.31121968787516,
+    "Trend 1991-2020": 24.337185020393026
+  },
+  {
+    "Year": 2012,
+    "Annual Average Mean Surface Air Temperature": 24.16,
+    "Trend 1951-2020": 24.33069460239699,
+    "Trend 1971-2020": 24.326085474189686,
+    "Trend 1991-2020": 24.360188357434183
+  },
+  {
+    "Year": 2013,
+    "Annual Average Mean Surface Air Temperature": 23.98,
+    "Trend 1951-2020": 24.34500113725833,
+    "Trend 1971-2020": 24.34095126050421,
+    "Trend 1991-2020": 24.383191694475336
+  },
+  {
+    "Year": 2014,
+    "Annual Average Mean Surface Air Temperature": 24.22,
+    "Trend 1951-2020": 24.35930767211967,
+    "Trend 1971-2020": 24.355817046818736,
+    "Trend 1991-2020": 24.406195031516493
+  },
+  {
+    "Year": 2015,
+    "Annual Average Mean Surface Air Temperature": 24.49,
+    "Trend 1951-2020": 24.373614206981014,
+    "Trend 1971-2020": 24.370682833133262,
+    "Trend 1991-2020": 24.42919836855765
+  },
+  {
+    "Year": 2016,
+    "Annual Average Mean Surface Air Temperature": 24.85,
+    "Trend 1951-2020": 24.387920741842354,
+    "Trend 1971-2020": 24.38554861944779,
+    "Trend 1991-2020": 24.452201705598807
+  },
+  {
+    "Year": 2017,
+    "Annual Average Mean Surface Air Temperature": 24.73,
+    "Trend 1951-2020": 24.402227276703695,
+    "Trend 1971-2020": 24.400414405762316,
+    "Trend 1991-2020": 24.47520504263996
+  },
+  {
+    "Year": 2018,
+    "Annual Average Mean Surface Air Temperature": 24.53,
+    "Trend 1951-2020": 24.41653381156504,
+    "Trend 1971-2020": 24.415280192076843,
+    "Trend 1991-2020": 24.498208379681117
+  },
+  {
+    "Year": 2019,
+    "Annual Average Mean Surface Air Temperature": 24.5,
+    "Trend 1951-2020": 24.43084034642638,
+    "Trend 1971-2020": 24.43014597839137,
+    "Trend 1991-2020": 24.521211716722274
+  },
+  {
+    "Year": 2020,
+    "Annual Average Mean Surface Air Temperature": 24.2,
+    "Trend 1951-2020": 24.44514688128772,
+    "Trend 1971-2020": 24.445011764705896,
+    "Trend 1991-2020": 24.54421505376343
+  }
+]
