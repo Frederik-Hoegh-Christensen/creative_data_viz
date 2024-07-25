@@ -1,0 +1,657 @@
+[
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1950",
+    "field2": "21",
+    "field3": "76"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1951",
+    "field2": "22",
+    "field3": "1",
+    "field4": "21",
+    "field5": "67187122736418"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1952",
+    "field2": "21",
+    "field3": "86",
+    "field4": "21",
+    "field5": "680351150380538"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1953",
+    "field2": "21",
+    "field3": "85",
+    "field4": "21",
+    "field5": "688831073396898"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1954",
+    "field2": "21",
+    "field3": "95",
+    "field4": "21",
+    "field5": "697310996413258"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1955",
+    "field2": "21",
+    "field3": "68",
+    "field4": "21",
+    "field5": "705790919429617"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1956",
+    "field2": "21",
+    "field3": "21",
+    "field4": "21",
+    "field5": "714270842445977"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1957",
+    "field2": "22",
+    "field3": "25",
+    "field4": "21",
+    "field5": "722750765462333"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1958",
+    "field2": "22",
+    "field3": "49",
+    "field4": "21",
+    "field5": "731230688478693"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1959",
+    "field2": "22",
+    "field3": "42",
+    "field4": "21",
+    "field5": "739710611495052"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1960",
+    "field2": "21",
+    "field3": "56",
+    "field4": "21",
+    "field5": "748190534511412"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1961",
+    "field2": "22",
+    "field3": "31",
+    "field4": "21",
+    "field5": "756670457527772"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1962",
+    "field2": "22",
+    "field3": "01",
+    "field4": "21",
+    "field5": "76515038054413"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1963",
+    "field2": "21",
+    "field3": "77",
+    "field4": "21",
+    "field5": "77363030356049"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1964",
+    "field2": "21",
+    "field3": "82",
+    "field4": "21",
+    "field5": "78211022657685"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1965",
+    "field2": "22",
+    "field3": "23",
+    "field4": "21",
+    "field5": "79059014959321"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1966",
+    "field2": "21",
+    "field3": "53",
+    "field4": "21",
+    "field5": "79907007260957"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1967",
+    "field2": "21",
+    "field3": "72",
+    "field4": "21",
+    "field5": "807549995625926"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1968",
+    "field2": "21",
+    "field3": "37",
+    "field4": "21",
+    "field5": "816029918642286"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1969",
+    "field2": "21",
+    "field3": "92",
+    "field4": "21",
+    "field5": "824509841658646"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1970",
+    "field2": "21",
+    "field3": "87",
+    "field4": "21",
+    "field5": "832989764675006"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1971",
+    "field2": "21",
+    "field3": "53",
+    "field4": "21",
+    "field5": "841469687691365",
+    "field6": "21",
+    "field7": "51889411764708"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1972",
+    "field2": "21",
+    "field3": "98",
+    "field4": "21",
+    "field5": "849949610707725",
+    "field6": "21",
+    "field7": "538196398559442"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1973",
+    "field2": "22",
+    "field3": "02",
+    "field4": "21",
+    "field5": "858429533724085",
+    "field6": "21",
+    "field7": "557498679471806"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1974",
+    "field2": "20",
+    "field3": "57",
+    "field4": "21",
+    "field5": "866909456740444",
+    "field6": "21",
+    "field7": "576800960384173"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1975",
+    "field2": "21",
+    "field3": "21",
+    "field4": "21",
+    "field5": "875389379756804",
+    "field6": "21",
+    "field7": "596103241296536"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1976",
+    "field2": "20",
+    "field3": "95",
+    "field4": "21",
+    "field5": "883869302773164",
+    "field6": "21",
+    "field7": "6154055222089"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1977",
+    "field2": "21",
+    "field3": "62",
+    "field4": "21",
+    "field5": "892349225789523",
+    "field6": "21",
+    "field7": "634707803121263"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1978",
+    "field2": "21",
+    "field3": "32",
+    "field4": "21",
+    "field5": "90082914880588",
+    "field6": "21",
+    "field7": "654010084033626"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1979",
+    "field2": "22",
+    "field3": "03",
+    "field4": "21",
+    "field5": "90930907182224",
+    "field6": "21",
+    "field7": "673312364945993"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1980",
+    "field2": "22",
+    "field3": "47",
+    "field4": "21",
+    "field5": "9177889948386",
+    "field6": "21",
+    "field7": "692614645858356"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1981",
+    "field2": "21",
+    "field3": "96",
+    "field4": "21",
+    "field5": "92626891785496",
+    "field6": "21",
+    "field7": "71191692677072"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1982",
+    "field2": "21",
+    "field3": "8",
+    "field4": "21",
+    "field5": "93474884087132",
+    "field6": "21",
+    "field7": "731219207683083"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1983",
+    "field2": "22",
+    "field3": "04",
+    "field4": "21",
+    "field5": "943228763887678",
+    "field6": "21",
+    "field7": "75052148859545"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1984",
+    "field2": "21",
+    "field3": "37",
+    "field4": "21",
+    "field5": "951708686904038",
+    "field6": "21",
+    "field7": "769823769507813"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1985",
+    "field2": "21",
+    "field3": "94",
+    "field4": "21",
+    "field5": "960188609920397",
+    "field6": "21",
+    "field7": "789126050420176"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1986",
+    "field2": "21",
+    "field3": "96",
+    "field4": "21",
+    "field5": "968668532936757",
+    "field6": "21",
+    "field7": "80842833133254"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1987",
+    "field2": "21",
+    "field3": "93",
+    "field4": "21",
+    "field5": "977148455953117",
+    "field6": "21",
+    "field7": "827730612244903"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1988",
+    "field2": "22",
+    "field3": "47",
+    "field4": "21",
+    "field5": "985628378969473",
+    "field6": "21",
+    "field7": "84703289315727"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1989",
+    "field2": "21",
+    "field3": "67",
+    "field4": "21",
+    "field5": "994108301985833",
+    "field6": "21",
+    "field7": "866335174069633"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1990",
+    "field2": "22",
+    "field3": "23",
+    "field4": "22",
+    "field5": "002588225002192",
+    "field6": "21",
+    "field7": "885637454981996"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1991",
+    "field2": "22",
+    "field3": "31",
+    "field4": "22",
+    "field5": "011068148018552",
+    "field6": "21",
+    "field7": "90493973589436",
+    "field8": "21",
+    "field9": "784860215053786"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1992",
+    "field2": "21",
+    "field3": "66",
+    "field4": "22",
+    "field5": "01954807103491",
+    "field6": "21",
+    "field7": "924242016806723",
+    "field8": "21",
+    "field9": "810088246199502"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1993",
+    "field2": "21",
+    "field3": "96",
+    "field4": "22",
+    "field5": "02802799405127",
+    "field6": "21",
+    "field7": "94354429771909",
+    "field8": "21",
+    "field9": "83531627734522"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1994",
+    "field2": "22",
+    "field3": "01",
+    "field4": "22",
+    "field5": "03650791706763",
+    "field6": "21",
+    "field7": "962846578631453",
+    "field8": "21",
+    "field9": "860544308490937"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1995",
+    "field2": "21",
+    "field3": "72",
+    "field4": "22",
+    "field5": "04498784008399",
+    "field6": "21",
+    "field7": "982148859543816",
+    "field8": "21",
+    "field9": "885772339636652"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1996",
+    "field2": "22",
+    "field3": "21",
+    "field4": "22",
+    "field5": "05346776310035",
+    "field6": "22",
+    "field7": "00145114045618",
+    "field8": "21",
+    "field9": "911000370782368"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1997",
+    "field2": "21",
+    "field3": "9",
+    "field4": "22",
+    "field5": "06194768611671",
+    "field6": "22",
+    "field7": "020753421368546",
+    "field8": "21",
+    "field9": "936228401928087"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1998",
+    "field2": "22",
+    "field3": "43",
+    "field4": "22",
+    "field5": "070427609133066",
+    "field6": "22",
+    "field7": "04005570228091",
+    "field8": "21",
+    "field9": "961456433073803"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1999",
+    "field2": "21",
+    "field3": "74",
+    "field4": "22",
+    "field5": "078907532149426",
+    "field6": "22",
+    "field7": "059357983193273",
+    "field8": "21",
+    "field9": "98668446421952"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2000",
+    "field2": "21",
+    "field3": "28",
+    "field4": "22",
+    "field5": "087387455165786",
+    "field6": "22",
+    "field7": "078660264105636",
+    "field8": "22",
+    "field9": "011912495365237"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2001",
+    "field2": "21",
+    "field3": "43",
+    "field4": "22",
+    "field5": "095867378182145",
+    "field6": "22",
+    "field7": "097962545018",
+    "field8": "22",
+    "field9": "037140526510953"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2002",
+    "field2": "22",
+    "field3": "3",
+    "field4": "22",
+    "field5": "104347301198505",
+    "field6": "22",
+    "field7": "117264825930366",
+    "field8": "22",
+    "field9": "06236855765667"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2003",
+    "field2": "22",
+    "field3": "2",
+    "field4": "22",
+    "field5": "112827224214865",
+    "field6": "22",
+    "field7": "13656710684273",
+    "field8": "22",
+    "field9": "087596588802384"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2004",
+    "field2": "22",
+    "field3": "07",
+    "field4": "22",
+    "field5": "121307147231224",
+    "field6": "22",
+    "field7": "155869387755093",
+    "field8": "22",
+    "field9": "112824619948103"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2005",
+    "field2": "22",
+    "field3": "71",
+    "field4": "22",
+    "field5": "129787070247584",
+    "field6": "22",
+    "field7": "175171668667456",
+    "field8": "22",
+    "field9": "13805265109382"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2006",
+    "field2": "22",
+    "field3": "03",
+    "field4": "22",
+    "field5": "138266993263944",
+    "field6": "22",
+    "field7": "19447394957982",
+    "field8": "22",
+    "field9": "163280682239535"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2007",
+    "field2": "22",
+    "field3": "24",
+    "field4": "22",
+    "field5": "146746916280303",
+    "field6": "22",
+    "field7": "213776230492186",
+    "field8": "22",
+    "field9": "188508713385254"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2008",
+    "field2": "22",
+    "field3": "01",
+    "field4": "22",
+    "field5": "155226839296663",
+    "field6": "22",
+    "field7": "23307851140455",
+    "field8": "22",
+    "field9": "21373674453097"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2009",
+    "field2": "22",
+    "field3": "47",
+    "field4": "22",
+    "field5": "16370676231302",
+    "field6": "22",
+    "field7": "252380792316913",
+    "field8": "22",
+    "field9": "238964775676685"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2010",
+    "field2": "21",
+    "field3": "72",
+    "field4": "22",
+    "field5": "17218668532938",
+    "field6": "22",
+    "field7": "271683073229276",
+    "field8": "22",
+    "field9": "2641928068224"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2011",
+    "field2": "21",
+    "field3": "33",
+    "field4": "22",
+    "field5": "18066660834574",
+    "field6": "22",
+    "field7": "29098535414164",
+    "field8": "22",
+    "field9": "28942083796812"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2012",
+    "field2": "21",
+    "field3": "73",
+    "field4": "22",
+    "field5": "1891465313621",
+    "field6": "22",
+    "field7": "310287635054006",
+    "field8": "22",
+    "field9": "314648869113835"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2013",
+    "field2": "22",
+    "field3": "88",
+    "field4": "22",
+    "field5": "197626454378458",
+    "field6": "22",
+    "field7": "32958991596637",
+    "field8": "22",
+    "field9": "33987690025955"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2014",
+    "field2": "22",
+    "field3": "58",
+    "field4": "22",
+    "field5": "206106377394818",
+    "field6": "22",
+    "field7": "348892196878733",
+    "field8": "22",
+    "field9": "36510493140527"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2015",
+    "field2": "22",
+    "field3": "48",
+    "field4": "22",
+    "field5": "214586300411177",
+    "field6": "22",
+    "field7": "368194477791096",
+    "field8": "22",
+    "field9": "390332962550985"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2016",
+    "field2": "22",
+    "field3": "39",
+    "field4": "22",
+    "field5": "223066223427537",
+    "field6": "22",
+    "field7": "387496758703463",
+    "field8": "22",
+    "field9": "4155609936967"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2017",
+    "field2": "22",
+    "field3": "46",
+    "field4": "22",
+    "field5": "231546146443897",
+    "field6": "22",
+    "field7": "406799039615827",
+    "field8": "22",
+    "field9": "440789024842417"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2018",
+    "field2": "22",
+    "field3": "59",
+    "field4": "22",
+    "field5": "240026069460257",
+    "field6": "22",
+    "field7": "42610132052819",
+    "field8": "22",
+    "field9": "466017055988136"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2019",
+    "field2": "23",
+    "field3": "11",
+    "field4": "22",
+    "field5": "248505992476613",
+    "field6": "22",
+    "field7": "445403601440553",
+    "field8": "22",
+    "field9": "49124508713385"
+  },
+  {
+    "Year,\"Annual Average Mean Surface Air Temperature\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2020",
+    "field2": "22",
+    "field3": "57",
+    "field4": "22",
+    "field5": "256985915492972",
+    "field6": "22",
+    "field7": "464705882352916",
+    "field8": "22",
+    "field9": "516473118279567"
+  }
+]

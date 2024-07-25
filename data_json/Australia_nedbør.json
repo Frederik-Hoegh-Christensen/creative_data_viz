@@ -1,0 +1,657 @@
+[
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1950",
+    "field2": "560",
+    "field3": "44"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1951",
+    "field2": "319",
+    "field3": "54",
+    "field4": "427",
+    "field5": "42586720321987"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1952",
+    "field2": "351",
+    "field3": "27",
+    "field4": "427",
+    "field5": "9762685679299"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1953",
+    "field2": "419",
+    "field3": "65",
+    "field4": "428",
+    "field5": "52666993263983"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1954",
+    "field2": "369",
+    "field3": "24",
+    "field4": "429",
+    "field5": "07707129734985"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1955",
+    "field2": "505",
+    "field3": "42",
+    "field4": "429",
+    "field5": "6274726620598"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1956",
+    "field2": "565",
+    "field3": "04",
+    "field4": "430",
+    "field5": "1778740267698"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1957",
+    "field2": "370",
+    "field3": "38",
+    "field4": "430",
+    "field5": "72827539147977"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1958",
+    "field2": "333",
+    "field3": "98",
+    "field4": "431",
+    "field5": "2786767561898"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1959",
+    "field2": "391",
+    "field3": "35",
+    "field4": "431",
+    "field5": "82907812089974"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1960",
+    "field2": "431",
+    "field3": "69",
+    "field4": "432",
+    "field5": "37947948560975"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1961",
+    "field2": "315",
+    "field3": "9",
+    "field4": "432",
+    "field5": "92988085031976"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1962",
+    "field2": "437",
+    "field3": "23",
+    "field4": "433",
+    "field5": "4802822150297"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1963",
+    "field2": "497",
+    "field3": "8",
+    "field4": "434",
+    "field5": "03068357973973"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1964",
+    "field2": "428",
+    "field3": "74",
+    "field4": "434",
+    "field5": "5810849444497"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1965",
+    "field2": "385",
+    "field3": "38",
+    "field4": "435",
+    "field5": "1314863091597"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1966",
+    "field2": "373",
+    "field3": "51",
+    "field4": "435",
+    "field5": "68188767386965"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1967",
+    "field2": "418",
+    "field3": "43",
+    "field4": "436",
+    "field5": "23228903857967"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1968",
+    "field2": "512",
+    "field3": "11",
+    "field4": "436",
+    "field5": "7826904032896"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1969",
+    "field2": "348",
+    "field3": "67",
+    "field4": "437",
+    "field5": "33309176799963"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1970",
+    "field2": "308",
+    "field3": "18",
+    "field4": "437",
+    "field5": "88349313270965"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1971",
+    "field2": "426",
+    "field3": "31",
+    "field4": "438",
+    "field5": "4338944974196",
+    "field6": "495",
+    "field7": "80988235294143"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1972",
+    "field2": "350",
+    "field3": "63",
+    "field4": "438",
+    "field5": "9842958621296",
+    "field6": "494",
+    "field7": "4833728691479"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1973",
+    "field2": "574",
+    "field3": "1",
+    "field4": "439",
+    "field5": "53469722683957",
+    "field6": "493",
+    "field7": "15686338535437"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1974",
+    "field2": "712",
+    "field3": "45",
+    "field4": "440",
+    "field5": "0850985915496",
+    "field6": "491",
+    "field7": "83035390156084"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1975",
+    "field2": "570",
+    "field3": "8",
+    "field4": "440",
+    "field5": "63549995625954",
+    "field6": "490",
+    "field7": "5038444177673"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1976",
+    "field2": "498",
+    "field3": "62",
+    "field4": "441",
+    "field5": "18590132096955",
+    "field6": "489",
+    "field7": "1773349339738"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1977",
+    "field2": "452",
+    "field3": "06",
+    "field4": "441",
+    "field5": "73630268567956",
+    "field6": "487",
+    "field7": "8508254501803"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1978",
+    "field2": "504",
+    "field3": "73",
+    "field4": "442",
+    "field5": "2867040503895",
+    "field6": "486",
+    "field7": "5243159663868"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1979",
+    "field2": "443",
+    "field3": "92",
+    "field4": "442",
+    "field5": "83710541509953",
+    "field6": "485",
+    "field7": "19780648259325"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1980",
+    "field2": "411",
+    "field3": "01",
+    "field4": "443",
+    "field5": "3875067798095",
+    "field6": "483",
+    "field7": "8712969987997"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1981",
+    "field2": "524",
+    "field3": "03",
+    "field4": "443",
+    "field5": "9379081445195",
+    "field6": "482",
+    "field7": "5447875150062"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1982",
+    "field2": "401",
+    "field3": "48",
+    "field4": "444",
+    "field5": "48830950922945",
+    "field6": "481",
+    "field7": "21827803121266"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1983",
+    "field2": "504",
+    "field3": "78",
+    "field4": "445",
+    "field5": "03871087393946",
+    "field6": "479",
+    "field7": "89176854741913"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1984",
+    "field2": "553",
+    "field3": "62",
+    "field4": "445",
+    "field5": "5891122386494",
+    "field6": "478",
+    "field7": "5652590636256"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1985",
+    "field2": "412",
+    "field3": "53",
+    "field4": "446",
+    "field5": "13951360335943",
+    "field6": "477",
+    "field7": "2387495798321"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1986",
+    "field2": "399",
+    "field3": "73",
+    "field4": "446",
+    "field5": "68991496806944",
+    "field6": "475",
+    "field7": "91224009603854"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1987",
+    "field2": "469",
+    "field3": "15",
+    "field4": "447",
+    "field5": "2403163327794",
+    "field6": "474",
+    "field7": "585730612245"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1988",
+    "field2": "456",
+    "field3": "38",
+    "field4": "447",
+    "field5": "7907176974894",
+    "field6": "473",
+    "field7": "2592211284515"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1989",
+    "field2": "456",
+    "field3": "79",
+    "field4": "448",
+    "field5": "34111906219937",
+    "field6": "471",
+    "field7": "932711644658"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1990",
+    "field2": "416",
+    "field3": "96",
+    "field4": "448",
+    "field5": "8915204269094",
+    "field6": "470",
+    "field7": "6062021608645"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1991",
+    "field2": "454",
+    "field3": "63",
+    "field4": "449",
+    "field5": "44192179161934",
+    "field6": "469",
+    "field7": "27969267707095",
+    "field8": "482",
+    "field9": "14784946236483"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1992",
+    "field2": "441",
+    "field3": "87",
+    "field4": "449",
+    "field5": "99232315632935",
+    "field6": "467",
+    "field7": "9531831932774",
+    "field8": "480",
+    "field9": "2191242120868"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1993",
+    "field2": "481",
+    "field3": "33",
+    "field4": "450",
+    "field5": "5427245210393",
+    "field6": "466",
+    "field7": "6266737094839",
+    "field8": "478",
+    "field9": "29039896180876"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1994",
+    "field2": "324",
+    "field3": "44",
+    "field4": "451",
+    "field5": "0931258857493",
+    "field6": "465",
+    "field7": "30016422569037",
+    "field8": "476",
+    "field9": "3616737115307"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1995",
+    "field2": "510",
+    "field3": "74",
+    "field4": "451",
+    "field5": "64352725045933",
+    "field6": "463",
+    "field7": "97365474189684",
+    "field8": "474",
+    "field9": "43294846125264"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1996",
+    "field2": "436",
+    "field3": "2",
+    "field4": "452",
+    "field5": "1939286151693",
+    "field6": "462",
+    "field7": "6471452581033",
+    "field8": "472",
+    "field9": "5042232109746"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1997",
+    "field2": "510",
+    "field3": "41",
+    "field4": "452",
+    "field5": "7443299798793",
+    "field6": "461",
+    "field7": "3206357743098",
+    "field8": "470",
+    "field9": "57549796069657"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1998",
+    "field2": "538",
+    "field3": "96",
+    "field4": "453",
+    "field5": "29473134458925",
+    "field6": "459",
+    "field7": "99412629051625",
+    "field8": "468",
+    "field9": "64677271041853"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "1999",
+    "field2": "523",
+    "field3": "76",
+    "field4": "453",
+    "field5": "84513270929926",
+    "field6": "458",
+    "field7": "6676168067227",
+    "field8": "466",
+    "field9": "7180474601405"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2000",
+    "field2": "656",
+    "field3": "64",
+    "field4": "454",
+    "field5": "3955340740092",
+    "field6": "457",
+    "field7": "34110732292925",
+    "field8": "464",
+    "field9": "78932220986246"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2001",
+    "field2": "501",
+    "field3": "3",
+    "field4": "454",
+    "field5": "94593543871923",
+    "field6": "456",
+    "field7": "0145978391357",
+    "field8": "462",
+    "field9": "8605969595844"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2002",
+    "field2": "296",
+    "field3": "07",
+    "field4": "455",
+    "field5": "49633680342924",
+    "field6": "454",
+    "field7": "6880883553422",
+    "field8": "460",
+    "field9": "9318717093064"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2003",
+    "field2": "437",
+    "field3": "61",
+    "field4": "456",
+    "field5": "0467381681392",
+    "field6": "453",
+    "field7": "36157887154866",
+    "field8": "459",
+    "field9": "0031464590283"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2004",
+    "field2": "447",
+    "field3": "18",
+    "field4": "456",
+    "field5": "5971395328492",
+    "field6": "452",
+    "field7": "03506938775513",
+    "field8": "457",
+    "field9": "07442120875027"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2005",
+    "field2": "355",
+    "field3": "31",
+    "field4": "457",
+    "field5": "14754089755917",
+    "field6": "450",
+    "field7": "7085599039616",
+    "field8": "455",
+    "field9": "14569595847223"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2006",
+    "field2": "430",
+    "field3": "95",
+    "field4": "457",
+    "field5": "6979422622692",
+    "field6": "449",
+    "field7": "38205042016807",
+    "field8": "453",
+    "field9": "2169707081942"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2007",
+    "field2": "470",
+    "field3": "15",
+    "field4": "458",
+    "field5": "24834362697914",
+    "field6": "448",
+    "field7": "05554093637454",
+    "field8": "451",
+    "field9": "28824545791616"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2008",
+    "field2": "429",
+    "field3": "6",
+    "field4": "458",
+    "field5": "79874499168915",
+    "field6": "446",
+    "field7": "729031452581",
+    "field8": "449",
+    "field9": "3595202076381"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2009",
+    "field2": "416",
+    "field3": "71",
+    "field4": "459",
+    "field5": "3491463563991",
+    "field6": "445",
+    "field7": "4025219687875",
+    "field8": "447",
+    "field9": "43079495736004"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2010",
+    "field2": "623",
+    "field3": "9",
+    "field4": "459",
+    "field5": "8995477211091",
+    "field6": "444",
+    "field7": "07601248499395",
+    "field8": "445",
+    "field9": "502069707082"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2011",
+    "field2": "652",
+    "field3": "33",
+    "field4": "460",
+    "field5": "44994908581907",
+    "field6": "442",
+    "field7": "7495030012004",
+    "field8": "443",
+    "field9": "57334445680397"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2012",
+    "field2": "432",
+    "field3": "8",
+    "field4": "461",
+    "field5": "0003504505291",
+    "field6": "441",
+    "field7": "4229935174069",
+    "field8": "441",
+    "field9": "64461920652593"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2013",
+    "field2": "391",
+    "field3": "57",
+    "field4": "461",
+    "field5": "5507518152391",
+    "field6": "440",
+    "field7": "0964840336134",
+    "field8": "439",
+    "field9": "7158939562479"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2014",
+    "field2": "446",
+    "field3": "66",
+    "field4": "462",
+    "field5": "10115317994905",
+    "field6": "438",
+    "field7": "7699745498199",
+    "field8": "437",
+    "field9": "78716870596986"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2015",
+    "field2": "411",
+    "field3": "82",
+    "field4": "462",
+    "field5": "65155454465906",
+    "field6": "437",
+    "field7": "44346506602636",
+    "field8": "435",
+    "field9": "8584434556918"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2016",
+    "field2": "484",
+    "field3": "18",
+    "field4": "463",
+    "field5": "201955909369",
+    "field6": "436",
+    "field7": "11695558223283",
+    "field8": "433",
+    "field9": "9297182054138"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2017",
+    "field2": "441",
+    "field3": "13",
+    "field4": "463",
+    "field5": "75235727407903",
+    "field6": "434",
+    "field7": "7904460984393",
+    "field8": "432",
+    "field9": "00099295513576"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2018",
+    "field2": "366",
+    "field3": "73",
+    "field4": "464",
+    "field5": "302758638789",
+    "field6": "433",
+    "field7": "4639366146458",
+    "field8": "430",
+    "field9": "07226770485767"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2019",
+    "field2": "241",
+    "field3": "99",
+    "field4": "464",
+    "field5": "853160003499",
+    "field6": "432",
+    "field7": "13742713085225",
+    "field8": "428",
+    "field9": "14354245457963"
+  },
+  {
+    "Year,\"Annual Precipitation\",\"Trend 1951-2020\",\"Trend 1971-2020\",\"Trend 1991-2020\"": "2020",
+    "field2": "468",
+    "field3": "47",
+    "field4": "465",
+    "field5": "403561368209",
+    "field6": "430",
+    "field7": "8109176470587",
+    "field8": "426",
+    "field9": "2148172043016"
+  }
+]
