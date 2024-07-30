@@ -1,10 +1,10 @@
 
 
 // Define dimensions and margins
-var h = 800;
-var w = 1500;
+var h = 682;
+var w = 1520;
 var margin = {top: 50, right: 50, bottom: 50, left: 50};
-var innerWidth = w - margin.left - margin.right;
+var innerWidth = w - margin.left - margin.right -100;
 var innerHeight = h - margin.top - margin.bottom;
 
 // Create the SVG canvas
@@ -12,7 +12,7 @@ var svg = d3.select("#canvas")
     .append("svg")
     .attr("width", w)
     .attr("height", h)
-    .style("background-color", "beige");
+    .style("background-color", "azure");
 
 // Create scales
 let x_scale = d3.scaleLinear()
@@ -176,6 +176,10 @@ Promise.all([
     // Start the animation
     animateCircles(groupedData);
 
+    createLegend();
+
+    
+
     console.log(groupedData);
 })
 .catch(function(error) {
@@ -197,9 +201,16 @@ function animateCircles(data) {
         // Update the text element with the current counter value
         counterText.text(`Year: ${counter + 1950}`);
 
-        const circles = svg.selectAll("circle")
+        const circles = svg.selectAll(".animated-circle")
             .data(data)
-            .join("circle")
+            .join(
+                enter => enter.append("circle")
+                    .attr("class", "animated-circle")
+                    .attr("r", 10)
+                    .attr("fill", d => d.color),
+                update => update,
+                exit => exit.remove()
+            )
             .transition()
             .duration(800) // Duration of the transition
             .ease(d3.easeLinear) // Linear easing for smooth transition
@@ -266,6 +277,65 @@ function animateCircles(data) {
         .style("fill", "black")
         .text("Temperature");
 }
+
+
+function createLegend() {
+    // Extract unique country and color pairs
+    const legendData =  [
+        { label: "Asia", shape: "circle",color: "pink" },
+        { label: "Europe", shape: "circle",color: "green" },
+        { label: "Africa", shape: "circle",color: "red" },
+        { label: "South America", shape: "circle",color: "yellow" },
+        { label: "Oceania", shape: "circle",color: "blue" },
+        ];
+
+
+
+    // Create a legend group
+    const legendGroup = svg.append("g")
+        .attr("transform", `translate(${w - margin.right - 150}, ${margin.top})`);
+
+    // Append legend items
+    legendGroup.selectAll(".legend-item")
+        .data(legendData)
+        .enter()
+        .append("g")
+        .attr("class", "legend-item")
+        .attr("transform", (d, i) => `translate(0, ${i * 20})`)
+        .each(function(d) {
+            d3.select(this)
+                .append("circle")
+                .attr("cx", 0)
+                .attr("cy", 0)
+                .attr("r", 6)
+                .attr("fill", d.color);
+
+            d3.select(this)
+                .append("text")
+                .attr("x", 12)
+                .attr("y", 5)
+                .style("font-size", "14px")
+                .text(d.label);
+        });
+}
+
+var legendText = svg.append("text")
+    .attr("x", w - margin.right + 20) // Positioning the text outside the canvas to the right
+    .attr("y", margin.top + 100)
+    .attr("font-size", "16px")
+    .attr("font-family", "Arial")
+    .attr("fill", "black");
+
+// Add lines of text using tspan
+legendText.append("tspan")
+    .attr("x", w - margin.right -350) // Keep the same x position for each tspan
+    .attr("dy", "1.2em") // Line spacing
+    .text("On the y-axis temperature is displayed as percentage.");
+
+legendText.append("tspan")
+    .attr("x", w - margin.right -350)
+    .attr("dy", "1.2em") // Additional line spacing for the next line
+    .text("On the x-axis precipitation is displayed as percentage.");
 
 function linearRegression(x, y) {
     const n = x.length;
