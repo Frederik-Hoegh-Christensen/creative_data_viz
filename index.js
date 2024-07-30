@@ -101,8 +101,6 @@ function draw(data) {
         .attr("cy", d => y_scale(d["temp"][0]["Annual Average Mean Surface Air Temperature"])) // Adjust x position based on temperature
         .attr("cx", d => x_scale(d["pp"][0]["Annual Precipitation"])) // Adjust y position based on index
         .attr("r", 10) // Adjust y position based on index
-        //.attr("width", d => x(d[1949].temp_avg)) // Width based on temperature
-
         .attr("fill", "black");
 
     // Add x-axis

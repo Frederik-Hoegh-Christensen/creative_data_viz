@@ -1,5 +1,5 @@
 // Define dimensions and margins
-var h = 1000;
+var h = 800;
 var w = 1500;
 var margin = {top: 50, right: 50, bottom: 50, left: 50};
 var innerWidth = w - margin.left - margin.right;
