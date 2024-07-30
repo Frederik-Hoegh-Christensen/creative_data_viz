@@ -1,3 +1,5 @@
+
+
 // Define dimensions and margins
 var h = 800;
 var w = 1500;
@@ -14,7 +16,7 @@ var svg = d3.select("#canvas")
 
 // Create scales
 let x_scale = d3.scaleLinear()
-    .domain([-50, 50]) // percentage change scale for precipitation
+    .domain([-50, 35]) // percentage change scale for precipitation
     .range([margin.left, innerWidth + margin.left]);
 
 let y_scale = d3.scaleLinear()
@@ -22,49 +24,66 @@ let y_scale = d3.scaleLinear()
     .range([innerHeight + margin.top, margin.top]);
 
 // Load JSON data and combine with mock data
-const fileNames = ["data_json/australia_temp_Sheet1.json",
-     "data_json/australia_p_Sheet1.json", 
-     "data_json/brazil_temp_Sheet1.json", 
-     "data_json/brazil_p_Sheet1.json", 
-     "data_json/colombia_p_Sheet1.json",
-     "data_json/colombia_temp_Sheet1.json",
-     "data_json/congo_p_Sheet1.json",
-     "data_json/congo_temp_Sheet1.json",
-     "data_json/dk_p_Sheet1.json",
-     "data_json/dk_temp_Sheet1.json",
-     "data_json/greece_p_Sheet1.json",
-     "data_json/greece_temp_Sheet1.json",
-     "data_json/india_p_Sheet1.json",
-     "data_json/india_temp_Sheet1.json",
-     "data_json/sudan_p_Sheet1.json",
-     "data_json/sudan_temp_Sheet1.json"
-    ];
+const fileNames = [
+    "data_json/australia_temp_Sheet1.json",
+    "data_json/australia_p_Sheet1.json", 
+    "data_json/brazil_temp_Sheet1.json", 
+    "data_json/brazil_p_Sheet1.json", 
+    "data_json/colombia_p_Sheet1.json",
+    "data_json/colombia_temp_Sheet1.json",
+    "data_json/congo_p_Sheet1.json",
+    "data_json/congo_temp_Sheet1.json",
+    "data_json/dk_p_Sheet1.json",
+    "data_json/dk_temp_Sheet1.json",
+    "data_json/greece_p_Sheet1.json",
+    "data_json/greece_temp_Sheet1.json",
+    "data_json/india_p_Sheet1.json",
+    "data_json/india_temp_Sheet1.json",
+    "data_json/sudan_p_Sheet1.json",
+    "data_json/sudan_temp_Sheet1.json"
+];
 
-Promise.all(fileNames.map(fileName => d3.json(fileName)))
+Promise.all([
+    ...fileNames.map(fileName => d3.json(fileName)),
+    d3.csv("data_csv/co-emissions-per-capita.csv") // Load the CO2 emissions CSV file
+])
 .then(function(files) {
     let countryData = {};
+    const co2Data = files.pop(); // Extract CO2 data
 
     files.forEach((data, index) => {
         const fileName = fileNames[index];
-        let country, type;
-
+        let country, type, color;
+        // Oceania = blue
+        // South America = yellow
+        // Europe = green
+        // Africa = red
+        // Asia = pink
         // Extract country and type from the file name
         if (fileName.includes("australia")) {
             country = "Australia";
+            color = "blue"
         } else if (fileName.includes("brazil")) {
             country = "Brazil";
+            color = "yellow";
         } else if (fileName.includes("colombia")){
             country = "Colombia";
+            color = "yellow";
         } else if (fileName.includes("congo")){
             country = "Congo";
+            color = "red"
         } else if (fileName.includes("dk")){
             country = "Denmark";
+            color = "green"
         } else if (fileName.includes("greece")){
             country = "Greece";
+            color = "green"
         } else if (fileName.includes("india")){
             country = "India";
+            color = "pink"
         } else if (fileName.includes("sudan")){
             country = "Sudan";
+            color = "red"
         }
             
         if (fileName.includes("temp")) {
@@ -75,7 +94,7 @@ Promise.all(fileNames.map(fileName => d3.json(fileName)))
 
         // Initialize the country entry if it doesn't exist
         if (!countryData[country]) {
-            countryData[country] = { temp: [], pp: [] };
+            countryData[country] = { temp: [], pp: [], co2: {}, color: color };
         }
 
         // Add data to the appropriate field
@@ -86,11 +105,21 @@ Promise.all(fileNames.map(fileName => d3.json(fileName)))
         }
     });
 
-    // Calculate percentage change for each country data
+    // Map CO2 data to the countryData object
+    co2Data.forEach(d => {
+        const country = d.Entity;
+        const year = +d.Year;
+        const co2Emission = +d["Annual CO₂ emissions (per capita)"];
+        if (countryData[country]) {
+            countryData[country].co2[year] = co2Emission;
+        }
+    });
+
+    // Calculate percentage change and CO2 trend for each country data
     for (const country in countryData) {
         const tempData = countryData[country].temp;
         const ppData = countryData[country].pp;
-        
+
         // Debug logs to inspect data structure
         console.log(`Processing ${country} data:`);
         console.log("Temperature data:", tempData);
@@ -117,16 +146,31 @@ Promise.all(fileNames.map(fileName => d3.json(fileName)))
             "Percentage Change": ((d["Trend 1951-2020"] - ppBase) / ppBase) * 100
         }));
 
+        // Calculate CO2 trend using linear regression
+        const co2Years = Object.keys(countryData[country].co2).map(Number);
+        const co2Values = co2Years.map(year => countryData[country].co2[year]);
+
+        if (co2Years.length > 1) {
+            const co2Trend = linearRegression(co2Years, co2Values);
+            countryData[country].co2Trend = co2Trend.slope;
+        } else {
+            countryData[country].co2Trend = 0;
+        }
+
         // Debug logs to inspect calculated data
         console.log(`Calculated percentage change for ${country} temperature:`, countryData[country].temp);
         console.log(`Calculated percentage change for ${country} precipitation:`, countryData[country].pp);
+        console.log(`Calculated CO2 trend for ${country}:`, countryData[country].co2Trend);
     }
 
     // Convert the countryData object to an array
     const groupedData = Object.keys(countryData).map(country => ({
         country: country,
         temp: countryData[country].temp,
-        pp: countryData[country].pp
+        pp: countryData[country].pp,
+        co2: countryData[country].co2,
+        co2Trend: countryData[country].co2Trend,
+        color: countryData[country].color // Include color
     }));
 
     // Start the animation
@@ -157,12 +201,16 @@ function animateCircles(data) {
             .data(data)
             .join("circle")
             .transition()
-            .duration(300) // Duration of the transition
+            .duration(800) // Duration of the transition
             .ease(d3.easeLinear) // Linear easing for smooth transition
             .attr("cy", d => y_scale(d["temp"][counter]["Percentage Change"]))
             .attr("cx", d => x_scale(d["pp"][counter]["Percentage Change"]))
-            .attr("r", 10)
-            .attr("fill", "black");
+            .attr("r", d => {
+                const year = counter + 1950;
+                const co2Emission = d.co2[year] || 1; // Default to 1 if no data
+                return Math.sqrt(co2Emission) * 10; // Scale radius for visibility
+            })
+            .attr("fill", d => d.color);
 
         // Add or update the text elements for the country names
         const countryTexts = svg.selectAll(".country-text")
@@ -177,18 +225,19 @@ function animateCircles(data) {
                 exit => exit.remove()
             )
             .transition()
-            .duration(300) // Duration of the transition
-            .ease(d3.easeLinear) // Linear easing for smooth transition
+            .duration(800) // Duration of the transition
+            .ease(d3.easeLinear) // Linear
             .attr("x", d => x_scale(d["pp"][counter]["Percentage Change"]))
             .attr("y", d => y_scale(d["temp"][counter]["Percentage Change"]) - 15) // Position above the circle
             .text(d => d.country);
 
         // Increment the counter and restart the update function after the duration
         counter = (counter + 1) % data[0].temp.length;
-        setTimeout(update, 300); // Ensure the function runs every 2000ms
+        setTimeout(update, 800); // Ensure the function runs every 2000ms
     }
 
     update();
+    
 
     // Add x-axis
     svg.append("g")
@@ -220,4 +269,17 @@ function animateCircles(data) {
         .style("font-size", "20px")
         .style("fill", "black")
         .text("Temperature");
+}
+
+function linearRegression(x, y) {
+    const n = x.length;
+    const sumX = d3.sum(x);
+    const sumY = d3.sum(y);
+    const sumXY = d3.sum(x.map((xi, i) => xi * y[i]));
+    const sumXX = d3.sum(x.map(xi => xi * xi));
+
+    const slope = (n * sumXY - sumX * sumY) / (n * sumXX - sumX * sumX);
+    const intercept = (sumY - slope * sumX) / n;
+
+    return { slope, intercept };
 }
