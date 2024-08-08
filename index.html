@@ -3,6 +3,33 @@
 <head>
 </head>
 <body>
+	<style>
+        #description {
+            position: absolute;
+            top: 20px;
+            left: 100px;
+            width: 400px; /* Adjust as needed */
+            padding: 8px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            z-index: 10; /* Ensures the description is above other elements */
+			
+        }
+		#description p{
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+ 
+        
+    </style>
+</head>
+<body>
+    <div id="description">
+        <p>The visualization illustrates changes in temperature and precipitation over the time period 1951-2020 across various countries. Each country is color-coded based on its continent.</p>
+    </div>
 	<div id="canvas">
 	</div>
 	<script src="https://d3js.org/d3.v7.min.js"></script>

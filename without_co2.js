@@ -1,29 +1,26 @@
 
-
-// Define dimensions and margins
-var h = 682;
+var h = 700;
 var w = 1520;
-var margin = {top: 50, right: 50, bottom: 50, left: 50};
+var margin = {top: 100, right: 50, bottom: 50, left: 50};
 var innerWidth = w - margin.left - margin.right -100;
-var innerHeight = h - margin.top - margin.bottom;
+var innerHeight = h - margin.top - margin.bottom ;
 
-// Create the SVG canvas
+
 var svg = d3.select("#canvas")
     .append("svg")
     .attr("width", w)
     .attr("height", h)
     .style("background-color", "azure");
 
-// Create scales
 let x_scale = d3.scaleLinear()
-    .domain([-50, 35]) // percentage change scale for precipitation
+    .domain([-45, 30]) 
     .range([margin.left, innerWidth + margin.left]);
 
 let y_scale = d3.scaleLinear()
-    .domain([-20, 30]) // percentage change scale for temperature
+    .domain([-10, 30]) 
     .range([innerHeight + margin.top, margin.top]);
 
-// Load JSON data and combine with mock data
+
 const fileNames = [
     "data_json/australia_temp_Sheet1.json",
     "data_json/australia_p_Sheet1.json", 
@@ -45,11 +42,11 @@ const fileNames = [
 
 Promise.all([
     ...fileNames.map(fileName => d3.json(fileName)),
-    d3.csv("data_csv/co-emissions-per-capita.csv") // Load the CO2 emissions CSV file
+    d3.csv("data_csv/co-emissions-per-capita.csv") 
 ])
 .then(function(files) {
     let countryData = {};
-    const co2Data = files.pop(); // Extract CO2 data
+    const co2Data = files.pop(); 
 
     files.forEach((data, index) => {
         const fileName = fileNames[index];
@@ -92,12 +89,11 @@ Promise.all([
             type = "pp";
         }
 
-        // Initialize the country entry if it doesn't exist
         if (!countryData[country]) {
             countryData[country] = { temp: [], pp: [], co2: {}, color: color };
         }
 
-        // Add data to the appropriate field
+      
         if (type === "temp") {
             countryData[country].temp = data;
         } else if (type === "pp") {
@@ -115,12 +111,12 @@ Promise.all([
         }
     });
 
-    // Calculate percentage change and CO2 trend for each country data
+
     for (const country in countryData) {
         const tempData = countryData[country].temp;
         const ppData = countryData[country].pp;
 
-        // Debug logs to inspect data structure
+
         console.log(`Processing ${country} data:`);
         console.log("Temperature data:", tempData);
         console.log("Precipitation data:", ppData);
@@ -128,7 +124,7 @@ Promise.all([
         const tempBase = tempData[1]["Trend 1951-2020"];
         const ppBase = ppData[1]["Trend 1951-2020"];
         
-        // Debug logs to inspect base values
+       
         console.log(`Base temperature for ${country}:`, tempBase);
         console.log(`Base precipitation for ${country}:`, ppBase);
         
@@ -146,7 +142,7 @@ Promise.all([
             "Percentage Change": ((d["Trend 1951-2020"] - ppBase) / ppBase) * 100
         }));
 
-        // Calculate CO2 trend using linear regression
+        
         const co2Years = Object.keys(countryData[country].co2).map(Number);
         const co2Values = co2Years.map(year => countryData[country].co2[year]);
 
@@ -157,23 +153,21 @@ Promise.all([
             countryData[country].co2Trend = 0;
         }
 
-        // Debug logs to inspect calculated data
         console.log(`Calculated percentage change for ${country} temperature:`, countryData[country].temp);
         console.log(`Calculated percentage change for ${country} precipitation:`, countryData[country].pp);
         console.log(`Calculated CO2 trend for ${country}:`, countryData[country].co2Trend);
     }
 
-    // Convert the countryData object to an array
     const groupedData = Object.keys(countryData).map(country => ({
         country: country,
         temp: countryData[country].temp,
         pp: countryData[country].pp,
         co2: countryData[country].co2,
         co2Trend: countryData[country].co2Trend,
-        color: countryData[country].color // Include color
+        color: countryData[country].color 
     }));
 
-    // Start the animation
+
     animateCircles(groupedData);
 
     createLegend();
@@ -189,16 +183,16 @@ Promise.all([
 function animateCircles(data) {
     let counter = 0;
 
-    // Create a text element to display the counter
+
     const counterText = svg.append("text")
-        .attr("x", w / 2)
-        .attr("y", margin.top / 2)
+        .attr("x", x_scale(-5))
+        .attr("y", margin.top + 10)
         .attr("text-anchor", "middle")
         .style("font-size", "24px")
         .style("fill", "black");
 
     function update() {
-        // Update the text element with the current counter value
+
         counterText.text(`Year: ${counter + 1950}`);
 
         const circles = svg.selectAll(".animated-circle")
@@ -213,13 +207,12 @@ function animateCircles(data) {
             )
             .transition()
             .duration(800) // Duration of the transition
-            .ease(d3.easeLinear) // Linear easing for smooth transition
+            .ease(d3.easeLinear) 
             .attr("cy", d => y_scale(d["temp"][counter]["Percentage Change"]))
             .attr("cx", d => x_scale(d["pp"][counter]["Percentage Change"]))
             .attr("r", 10)
             .attr("fill", d => d.color);
 
-        // Add or update the text elements for the country names
         const countryTexts = svg.selectAll(".country-text")
             .data(data)
             .join(
@@ -232,15 +225,15 @@ function animateCircles(data) {
                 exit => exit.remove()
             )
             .transition()
-            .duration(800) // Duration of the transition
-            .ease(d3.easeLinear) // Linear
+            .duration(800) // duration of the transition
+            .ease(d3.easeLinear)
             .attr("x", d => x_scale(d["pp"][counter]["Percentage Change"]))
-            .attr("y", d => y_scale(d["temp"][counter]["Percentage Change"]) - 15) // Position above the circle
+            .attr("y", d => y_scale(d["temp"][counter]["Percentage Change"]) - 15)
             .text(d => d.country);
 
-        // Increment the counter and restart the update function after the duration
+        
         counter = (counter + 1) % data[0].temp.length;
-        setTimeout(update, 800); // Ensure the function runs every 2000ms
+        setTimeout(update, 800); // ensure the function runs every 2s
     }
 
     update();
@@ -260,11 +253,11 @@ function animateCircles(data) {
     svg.append("text")
         .attr("class", "x label")
         .attr("text-anchor", "middle")
-        .attr("x", w / 2)
-        .attr("y", h - margin.bottom / 2)
-        .style("font-size", "20px")
+        .attr("x", x_scale(0))
+        .attr("y", h - margin.bottom / 4)
+        .style("font-size", "18px")
         .style("fill", "black")
-        .text("Precipitation");
+        .text("Precipitation change");
 
     // Add y-axis label
     svg.append("text")
@@ -272,10 +265,14 @@ function animateCircles(data) {
         .attr("text-anchor", "middle")
         .attr("transform", "rotate(-90)")
         .attr("x", -h / 2)
-        .attr("y", margin.left / 2)
-        .style("font-size", "20px")
+        .attr("y", margin.left / 3)
+        .style("font-size", "18px")
         .style("fill", "black")
-        .text("Temperature");
+        .text("Temperature change");
+
+        // Add the "Data from:" text to the bottom left of the SVG
+
+
 }
 
 
@@ -293,7 +290,17 @@ function createLegend() {
 
     // Create a legend group
     const legendGroup = svg.append("g")
-        .attr("transform", `translate(${w - margin.right - 150}, ${margin.top})`);
+        .attr("transform", `translate(${w - margin.right - 300}, ${margin.top + 20})`);
+
+     // Add a title to the legend
+     legendGroup.append("text")
+        .attr("x", 75)
+        .attr("y", -20) // Positioning the title above the legend items
+        .attr("text-anchor", "middle")
+        .style("font-size", "18px")
+        .style("font-weight", "bold")
+        .style("fill", "black")
+        .text("Colorcode for continents:");
 
     // Append legend items
     legendGroup.selectAll(".legend-item")
@@ -314,28 +321,37 @@ function createLegend() {
                 .append("text")
                 .attr("x", 12)
                 .attr("y", 5)
-                .style("font-size", "14px")
+                .style("font-size", "18px")
                 .text(d.label);
         });
+
+    const legendHeight = legendData.length * 20; // Total height of the legend items plus the title
+    const dataSourceText = "Data from:";
+    const websiteURL = "https://climateknowledgeportal.worldbank.org"; // Replace with your website URL
+
+    // Create the text element with line breaks
+    svg.append("text")
+        .attr("x", w - margin.right - 205) // Same x position as the legend
+        .attr("y", margin.top + legendHeight + 10) // Position below the legend
+        .attr("font-size", "12px") // Font size for the text
+        .attr("font-family", "Arial") // Font family
+        .attr("fill", "black") // Text color
+        .append("tspan")
+        .attr("x", w - margin.right - 305) // Align with the x position
+        .attr("dy", "1.2em") // Line spacing for "Data from:"
+        .text(dataSourceText);
+
+    svg.append("text")
+        .attr("x", w - margin.right - 305) // Same x position as the legend
+        .attr("y", margin.top + legendHeight + 40) // Position below the "Data from:" text
+        .attr("font-size", "12px") // Font size for the URL
+        .attr("font-family", "Arial") // Font family
+        .attr("fill", "blue") // URL color
+        .style("text-decoration", "underline") // Underline the URL
+        .text(websiteURL); // The URL to display
 }
 
-var legendText = svg.append("text")
-    .attr("x", w - margin.right + 20) // Positioning the text outside the canvas to the right
-    .attr("y", margin.top + 100)
-    .attr("font-size", "16px")
-    .attr("font-family", "Arial")
-    .attr("fill", "black");
 
-// Add lines of text using tspan
-legendText.append("tspan")
-    .attr("x", w - margin.right -350) // Keep the same x position for each tspan
-    .attr("dy", "1.2em") // Line spacing
-    .text("On the y-axis temperature is displayed as percentage.");
-
-legendText.append("tspan")
-    .attr("x", w - margin.right -350)
-    .attr("dy", "1.2em") // Additional line spacing for the next line
-    .text("On the x-axis precipitation is displayed as percentage.");
 
 function linearRegression(x, y) {
     const n = x.length;

@@ -18,7 +18,7 @@ let x_scale = d3.scaleLinear()
     .range([margin.left, innerWidth + margin.left]);
 
 let y_scale = d3.scaleLinear()
-    .domain([28, 20])
+    .domain([40, 0])
     .range([margin.top, innerHeight + margin.top]);
 
 // Load JSON data and combine with mock data
