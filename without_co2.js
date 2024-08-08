@@ -101,7 +101,7 @@ Promise.all([
         }
     });
 
-    // Map CO2 data to the countryData object
+    // map CO2 data to the countryData object
     co2Data.forEach(d => {
         const country = d.Entity;
         const year = +d.Year;
@@ -206,7 +206,7 @@ function animateCircles(data) {
                 exit => exit.remove()
             )
             .transition()
-            .duration(800) // Duration of the transition
+            .duration(800) // duration of the transition
             .ease(d3.easeLinear) 
             .attr("cy", d => y_scale(d["temp"][counter]["Percentage Change"]))
             .attr("cx", d => x_scale(d["pp"][counter]["Percentage Change"]))
@@ -233,23 +233,23 @@ function animateCircles(data) {
 
         
         counter = (counter + 1) % data[0].temp.length;
-        setTimeout(update, 800); // ensure the function runs every 2s
+        setTimeout(update, 800); 
     }
 
     update();
     
 
-    // Add x-axis
+    // add x-axis
     svg.append("g")
         .attr("transform", `translate(0,${innerHeight + margin.top})`)
         .call(d3.axisBottom(x_scale).ticks(10).tickFormat(d => d + '%'));
 
-    // Add y-axis
+    // add y-axis
     svg.append("g")
         .attr("transform", `translate(${margin.left},0)`)
         .call(d3.axisLeft(y_scale).ticks(10).tickFormat(d => d + '%'));
 
-    // Add x-axis label
+    // add x-axis label
     svg.append("text")
         .attr("class", "x label")
         .attr("text-anchor", "middle")
@@ -259,7 +259,7 @@ function animateCircles(data) {
         .style("fill", "black")
         .text("Precipitation change");
 
-    // Add y-axis label
+    // add y-axis label
     svg.append("text")
         .attr("class", "y label")
         .attr("text-anchor", "middle")
@@ -270,14 +270,11 @@ function animateCircles(data) {
         .style("fill", "black")
         .text("Temperature change");
 
-        // Add the "Data from:" text to the bottom left of the SVG
-
-
 }
 
 
 function createLegend() {
-    // Extract unique country and color pairs
+    // extract unique country and color pairs
     const legendData =  [
         { label: "Asia", shape: "circle",color: "pink" },
         { label: "Europe", shape: "circle",color: "green" },
@@ -288,21 +285,18 @@ function createLegend() {
 
 
 
-    // Create a legend group
     const legendGroup = svg.append("g")
         .attr("transform", `translate(${w - margin.right - 300}, ${margin.top + 20})`);
 
-     // Add a title to the legend
-     legendGroup.append("text")
+    legendGroup.append("text")
         .attr("x", 75)
-        .attr("y", -20) // Positioning the title above the legend items
+        .attr("y", -20) 
         .attr("text-anchor", "middle")
         .style("font-size", "18px")
         .style("font-weight", "bold")
         .style("fill", "black")
         .text("Colorcode for continents:");
 
-    // Append legend items
     legendGroup.selectAll(".legend-item")
         .data(legendData)
         .enter()
@@ -325,30 +319,29 @@ function createLegend() {
                 .text(d.label);
         });
 
-    const legendHeight = legendData.length * 20; // Total height of the legend items plus the title
+    const legendHeight = legendData.length * 20; 
     const dataSourceText = "Data from:";
-    const websiteURL = "https://climateknowledgeportal.worldbank.org"; // Replace with your website URL
+    const websiteURL = "https://climateknowledgeportal.worldbank.org"; 
 
-    // Create the text element with line breaks
     svg.append("text")
-        .attr("x", w - margin.right - 205) // Same x position as the legend
-        .attr("y", margin.top + legendHeight + 10) // Position below the legend
-        .attr("font-size", "12px") // Font size for the text
-        .attr("font-family", "Arial") // Font family
-        .attr("fill", "black") // Text color
+        .attr("x", w - margin.right - 205) 
+        .attr("y", margin.top + legendHeight + 10) 
+        .attr("font-size", "12px") 
+        .attr("font-family", "Arial") 
+        .attr("fill", "black") 
         .append("tspan")
-        .attr("x", w - margin.right - 305) // Align with the x position
-        .attr("dy", "1.2em") // Line spacing for "Data from:"
+        .attr("x", w - margin.right - 305) 
+        .attr("dy", "1.2em")
         .text(dataSourceText);
 
     svg.append("text")
-        .attr("x", w - margin.right - 305) // Same x position as the legend
-        .attr("y", margin.top + legendHeight + 40) // Position below the "Data from:" text
-        .attr("font-size", "12px") // Font size for the URL
-        .attr("font-family", "Arial") // Font family
-        .attr("fill", "blue") // URL color
-        .style("text-decoration", "underline") // Underline the URL
-        .text(websiteURL); // The URL to display
+        .attr("x", w - margin.right - 305) 
+        .attr("y", margin.top + legendHeight + 40)
+        .attr("font-size", "12px")
+        .attr("font-family", "Arial")
+        .attr("fill", "blue") 
+        .style("text-decoration", "underline") 
+        .text(websiteURL); 
 }
 
 
